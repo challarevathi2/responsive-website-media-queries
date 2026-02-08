@@ -1,0 +1,32 @@
+/* 1 Base/ Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* 2 Mobile-first styles */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+ }
+  .header {
+    background: #333;
+    color: aqua;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    background: #444;
+  }
+
+  /* 4 Desktop styles */
+  @media (min-width: 1024px) {
+    .nav {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+ 
